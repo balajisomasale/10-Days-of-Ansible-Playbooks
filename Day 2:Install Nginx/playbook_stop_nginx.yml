@@ -1,0 +1,9 @@
+---
+- name: Stopping Nginx server
+  hosts: your_target_servers
+  become: true
+  tasks:
+    - name: From Task 1 Stop Nginx
+      service:
+        name: nginx
+        state: stopped

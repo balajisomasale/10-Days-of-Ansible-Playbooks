@@ -1,0 +1,7 @@
+---
+- name: Hello Ansible
+  hosts: your_target_servers
+  tasks:
+    - name: Print Hello
+      debug:
+        msg: "Hello, Ansible!"

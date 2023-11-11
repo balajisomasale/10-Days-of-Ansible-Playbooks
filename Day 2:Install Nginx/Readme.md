@@ -25,6 +25,9 @@ Running the Playbook: `ansible-playbook -i inventory playbook.yml`
 
 Checking Target server:
 - check the nginx version:
+  
   ![image](https://github.com/balajisomasale/10-Days-of-Ansible-Playbooks/assets/35003840/4406b345-d0d5-4d59-8b92-ea0100b25a30)
+
 - check its status: `systemctl status nginx`
+
   ![image](https://github.com/balajisomasale/10-Days-of-Ansible-Playbooks/assets/35003840/1573f883-52fc-4583-ad74-6c6b63d47f2e)

@@ -1,4 +1,5 @@
 # Create a File
+```
 ---
 - name: Create a File
   hosts: your_target_servers
@@ -7,8 +8,8 @@
       file:
         path: /path/to/your/file.txt
         state: touch
-
-Run the playbook:
+```
+## Run the playbook:
 
 ![image](https://github.com/balajisomasale/10-Days-of-Ansible-Playbooks/assets/35003840/f70693d4-05ce-499a-a89f-9c914c7591a6)
 
